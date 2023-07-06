@@ -13,8 +13,8 @@ drone.takeoff(10)
 print("Drawing triangle with side = 10")
 
 drone.set_local_position(x=10, y=0, z=0, body_frame=True)
-drone.set_local_position(x=5, y=8.66, z=0, body_frame=True)
-drone.set_local_position(x=0, y=0, z=0,body_frame=True)
+drone.set_local_position(x=-5, y=8.66, z=0, body_frame=True)
+drone.set_local_position(x=-5, y=-8.66, z=0,body_frame=True)
 
 
 drone.land()
